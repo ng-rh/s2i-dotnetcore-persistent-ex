@@ -70,7 +70,7 @@
                         "containers": [
                             {
                                 "name": "db",
-                                "image": "mcr.microsoft.com/mssql/rhel/server:2022-latest",
+                                "image": "quay.io/nehgupta/widows/mssql/rhel/server:2022-latest",
                                 "ports": [
                                     {
                                         "containerPort": 1433
