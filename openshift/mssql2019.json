@@ -2,9 +2,9 @@
     "kind": "Template",
     "apiVersion": "v1",
     "metadata": {
-        "name": "mssql2019",
+        "name": "mssql2022",
         "annotations": {
-            "openshift.io/display-name": "Microsoft SQL Server 2019",
+            "openshift.io/display-name": "Microsoft SQL Server 2022",
             "description": "Relational database management system developed by Microsoft."
         }
     },
@@ -70,7 +70,7 @@
                         "containers": [
                             {
                                 "name": "db",
-                                "image": "mcr.microsoft.com/mssql/rhel/server:2019-latest",
+                                "image": "mcr.microsoft.com/mssql/rhel/server:2022-latest",
                                 "ports": [
                                     {
                                         "containerPort": 1433
